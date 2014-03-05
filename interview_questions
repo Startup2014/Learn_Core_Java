@@ -1,0 +1,17 @@
+a) Find the nearest K point given a set of N point.
+b) Print a tree level-by level.
+c) Given a dictionary find and set of two words find path from one word to another such that all the intermediate words are also from dictionary.
+ Example: GOD -> GID -> DID -> DIG -> DOG.
+At each time we are allowed only one character change.
+d) Design an Hangman. { They expect MVC architecture. }
+5)Print out a binary tree with each level printed on its own line
+6) 	Find all the possible factors of a given number
+7) what's the best data structure and algorithm.
+8) What are the differences between processes and threads?
+9) Data Structures; circular queues etc.
+10)Implement an RPN calculator in Java  
+11) basic data structures/algorithms/big O notation. 
+Should be able to apply algorithms such as binary search, hashing etc as and when needed
+12) Find an element in a rotated array
+13)Write a function to realise a's power of b
+14)Print out a binary tree with each level printed on its own line.
