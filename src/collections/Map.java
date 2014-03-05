@@ -3,11 +3,13 @@ package collections;
 public class Map {
 //	1-800-APPLE 
 	
-	public static void main(String[] args) throws Exception 
-	{
+	public static void main(String[] args) throws Exception {
+	
 		
+	}
+}
 //	Map hardcode =new map();
-	int i = 65;
+/*	int i = 65;
 	char c = (char)i;
 	//System.out.print(c );
 
@@ -16,4 +18,6 @@ public class Map {
 	
 	System.out.print(i1 );
 	}
-}
+	
+
+		*/

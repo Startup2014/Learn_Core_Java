@@ -1,4 +1,4 @@
-package google_selenium;
+package Pap_pal_using_webdriver_selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
