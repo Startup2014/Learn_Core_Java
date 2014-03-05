@@ -1,4 +1,4 @@
-package Pap_pal_using_webdriver_selenium;
+package selenium_Webdriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class seleniumTestCase {
+public class Crome_browser_test {
 	
 	WebDriver driver;
 	

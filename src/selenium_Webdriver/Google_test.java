@@ -1,4 +1,4 @@
-package Pap_pal_using_webdriver_selenium;
+package selenium_Webdriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class google_serach  {
+public class Google_test {
+
     public static void main(String[] args) {
         // Create a new instance of the Firefox driver
         // Notice that the remainder of the code relies on the interface, 
@@ -23,7 +24,7 @@ public class google_serach  {
         WebElement element = driver.findElement(By.name("q"));
 
         // Enter something to search for
-        element.sendKeys("eBay");
+        element.sendKeys("Cheese!");
 
         // Now submit the form. WebDriver will find the form for us from the element
         element.submit();
@@ -35,7 +36,7 @@ public class google_serach  {
         // Wait for the page to load, timeout after 10 seconds
         (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver d) {
-                return d.getTitle().toLowerCase().startsWith("EBay!");
+                return d.getTitle().toLowerCase().startsWith("cheese!");
             }
         });
 
@@ -43,5 +44,6 @@ public class google_serach  {
         System.out.println("Page title is: " + driver.getTitle());
         
         //Close the browser
+        driver.quit();
     }
 }

@@ -1,4 +1,4 @@
-package Pap_pal_using_webdriver_selenium;
+package selenium_Webdriver;
 import java.util.List;
 import org.testng.annotations.*;
 import org.openqa.selenium.By;
