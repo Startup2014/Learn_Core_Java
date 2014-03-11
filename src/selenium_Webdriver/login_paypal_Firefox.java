@@ -27,8 +27,6 @@ public class login_paypal_Firefox {
               break;
             }
         }
-
-     
         List<WebElement> allSuggestions = driver.findElements(By.xpath("//td[@class='gssb_a gbqfsf']"));
         
         for (WebElement suggestion : allSuggestions) {
